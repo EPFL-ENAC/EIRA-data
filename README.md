@@ -1,12 +1,10 @@
-# enac-it4r-repo
+# EIRA data repository
 
-Template with licences / github templates and contributing processes
+This repository aims to store sample data for the project **EIRA - Enhancing Infrastructure Resilience to flooding using Afforestation: the
+case of Nouakchott city, Mauritania**.
 
-# Todo when setting up your github repo
 
-- [ ] Learn how to use github template repository: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
-- [ ] Activate discussion (https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/settings)
-- [ ] Replace `{YOUR-REPO-NAME}` by the name of your repo
-- [ ] Check if you need all those labels: https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/labels
-- [ ] Create your first milestone: https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/milestones
-- [ ] Protect your branch if you're a pro user: https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/settings/branches
+:rotating_light: GitHub limits the size of files allowed in repositories. If you attempt to add or update a file that is larger than 50 MB, you will receive a warning from Git.
+
+
+
