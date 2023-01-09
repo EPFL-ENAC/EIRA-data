@@ -14,7 +14,7 @@
       "maxZoom": 22
     },
     "natural_earth_shaded_relief": {
-      "maxzoom": 14,
+      "maxzoom": 22,
       "tileSize": 256,
       "tiles": [
         "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
