@@ -1,0 +1,272 @@
+{
+  "version": 8,
+  "name": "OSM Liberty",
+  "metadata": {
+    "maputnik:license": "",
+    "maputnik:renderer": "mbgljs",
+    "openmaptiles:version": "3.x"
+  },
+  "sources": {
+    "pbghis8kc": {
+      "type": "vector",
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2022-12-14/{z}/{x}/{y}.pbf"],
+      "minZoom": 0,
+      "maxZoom": 22
+    },
+    "natural_earth_shaded_relief": {
+      "maxzoom": 14,
+      "tileSize": 256,
+      "tiles": [
+        "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    }
+  },
+  "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {"background-color": "rgb(239,239,239)"}
+    },
+	    {
+      "id": "natural_earth",
+      "type": "raster",
+      "source": "natural_earth_shaded_relief",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}}
+    },
+    {
+      "id": "piezometer locations",
+      "type": "circle",
+      "source": "pbghis8kc",
+      "source-layer": "piezometer locations",
+      "layout": {"visibility": "visible"}
+    },
+    {
+      "id": "countries",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "countries",
+      "layout": {"visibility": "visible"}
+    },
+    {
+      "id": "piezo_contours_08",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contours_08",
+      "layout": {"visibility": "visible"}
+    },
+    {
+      "id": "piezo_contours_12",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contours_12",
+      "layout": {"visibility": "visible"}
+    },
+    {
+      "id": "piezo_contours_02",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contours_02",
+      "layout": {"visibility": "visible"}
+    },
+    {
+      "id": "piezo_contours_01",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contours_01",
+      "layout": {"visibility": "visible"}
+    },
+    {
+      "id": "piezo_contours_07",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contours_07",
+      "layout": {"visibility": "visible"}
+    },
+    {
+      "id": "piezo_contours_06",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contours_06",
+      "layout": {"visibility": "visible"}
+    },
+    {
+      "id": "piezo_contours_03",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contours_03",
+      "layout": {"visibility": "visible"}
+    },
+    {
+      "id": "piezo_contours_05",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contours_05",
+      "layout": {"visibility": "visible"}
+    },
+    {
+      "id": "piezo_contours_11",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contours_11",
+      "layout": {"visibility": "visible"}
+    },
+    {
+      "id": "piezo_contours_10",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contours_10",
+      "layout": {"visibility": "visible"}
+    },
+    {
+      "id": "piezo_contours_09",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contours_09",
+      "layout": {"visibility": "visible"}
+    },
+    {
+      "id": "piezo_contours_04",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contours_04",
+      "layout": {"visibility": "visible"}
+    },
+    {
+      "id": "pond_08",
+      "type": "fill",
+      "source": "pbghis8kc",
+      "source-layer": "pond_08",
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(30, 30, 213, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
+      }
+    },
+    {
+      "id": "pond_12",
+      "type": "fill",
+      "source": "pbghis8kc",
+      "source-layer": "pond_12",
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(30, 30, 213, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
+      }
+    },
+    {
+      "id": "pond_02",
+      "type": "fill",
+      "source": "pbghis8kc",
+      "source-layer": "pond_02",
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(30, 30, 213, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
+      }
+    },
+    {
+      "id": "pond_01",
+      "type": "fill",
+      "source": "pbghis8kc",
+      "source-layer": "pond_01",
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(30, 30, 213, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
+      }
+    },
+    {
+      "id": "pond_07",
+      "type": "fill",
+      "source": "pbghis8kc",
+      "source-layer": "pond_07",
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(30, 30, 213, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
+      }
+    },
+    {
+      "id": "pond_06",
+      "type": "fill",
+      "source": "pbghis8kc",
+      "source-layer": "pond_06",
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(30, 30, 213, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
+      }
+    },
+    {
+      "id": "pond_03",
+      "type": "fill",
+      "source": "pbghis8kc",
+      "source-layer": "pond_03",
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(30, 30, 213, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
+      }
+    },
+    {
+      "id": "pond_05",
+      "type": "fill",
+      "source": "pbghis8kc",
+      "source-layer": "pond_05",
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(30, 30, 213, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
+      }
+    },
+    {
+      "id": "pond_11",
+      "type": "fill",
+      "source": "pbghis8kc",
+      "source-layer": "pond_11",
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(30, 30, 213, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
+      }
+    },
+    {
+      "id": "pond_10",
+      "type": "fill",
+      "source": "pbghis8kc",
+      "source-layer": "pond_10",
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(30, 30, 213, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
+      }
+    },
+    {
+      "id": "pond_09",
+      "type": "fill",
+      "source": "pbghis8kc",
+      "source-layer": "pond_09",
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(30, 30, 213, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
+      }
+    },
+    {
+      "id": "pond_04",
+      "type": "fill",
+      "source": "pbghis8kc",
+      "source-layer": "pond_04",
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(30, 30, 213, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
+      }
+    }
+  ],
+  "id": "osm-liberty"
+}
