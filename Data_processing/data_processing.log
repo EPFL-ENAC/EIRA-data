@@ -1,0 +1,265 @@
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Current FME version: FME 2022.1.3.0 (20220928 - Build 22630 - WIN64)
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME_HOME is 'C:\app\FMEDesktop-22630-win-x64\'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Home Edition (node locked-crc)
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Serial Number: 95KTTUJV9Q4KQUWWCDPV
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Temporary License: 149 days left.
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Machine host name is: ENACIT-B121422
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|OS Locale Name     : en_CH
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|OS Locale Encoding : windows-1252
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME API version: '4.0 20220615'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\projects\EIRA-data\Data\webmap\processing/'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'data_processing.fmw'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2022.1.3.0'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 19044)
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Platform: WIN64
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|System Status: 4.64 GB of disk space available in the FME temporary folder (C:\Users\longcham\AppData\Local\Temp\wbrun_1670937323725_18064\fmetmp_1)
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|System Status: 31.73 GB of physical memory available
+2022-12-13 14:18:21|   0.0|  0.0|WARN  |Failed to free sufficient memory to reach the process usage limit. To improve stability and performance please increase the memory available to FME. Available memory can be increased by adding physical RAM, increasing swap space, or closing other applications
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|System Status: 126.90 GB of virtual memory available
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|START - ProcessID: 33672, peak process memory usage: 68556 kB, current process memory usage: 68556 kB
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\app\FMEDesktop-22630-win-x64\fme.exe' `C:/projects/EIRA-data/Data/webmap/processing\wb-xlate-1670937499949_18064' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `51417' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `51256'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\longcham\AppData\Roaming\Safe Software\FME\'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Shared folders for formats are : C:\app\FMEDesktop-22630-win-x64\datasources;C:\Users\longcham\Documents\FME\Formats
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Shared folders for transformers are : C:\Users\longcham\AppData\Roaming\Safe Software\FME\Packages\22630-win64\transformers;C:\app\FMEDesktop-22630-win-x64\transformers;C:\Users\longcham\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\longcham\Documents\FME\CoordinateSystems
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\longcham\Documents\FME\CoordinateSystemExceptions
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\longcham\Documents\FME\CoordinateSystemGridOverrides
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\longcham\Documents\FME\CsmapTransformationExceptions
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\longcham\Documents\FME\TransformerCategories
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Configuration: Writer Keyword is `NULL_DEST'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `NULL_DEST_DEF'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Configuration: Writer type is `NULL'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `C:\projects\EIRA-data\Data\webmap\processing'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\longcham\AppData\Local\Temp\wbrun_1670937323725_18064\fmetmp_1', set from environment variable `FME_TEMP'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Configuration: Cache folder is 'C:\Users\longcham\AppData\Local\Temp'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `C:\app\FMEDesktop-22630-win-x64\'
+2022-12-13 14:18:21|   0.0|  0.0|WARN  |FME Configuration: Extremely low initial memory conditions detected. To improve stability and performance please increase the memory available to FME. Available memory can be increased by adding physical RAM, increasing swap space, or closing other applications
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Creating writer for format: NULL (Nothing)
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `NULL'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Loaded module 'NULL' from file 'C:\app\FMEDesktop-22630-win-x64\plugins/NULL.dll'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (4.0 20220615)
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Creating reader for format: 
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\app\FMEDesktop-22630-win-x64\plugins/LogCount_func.dll'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20220615)
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|Loaded module 'QueryFactory' from file 'C:\app\FMEDesktop-22630-win-x64\plugins/QueryFactory.dll'
+2022-12-13 14:18:21|   0.0|  0.0|INFORM|FME API version of module 'QueryFactory' matches current internal version (4.0 20220615)
+2022-12-13 14:18:21|   0.1|  0.1|INFORM|Emptying factory pipeline
+2022-12-13 14:18:21|   0.1|  0.0|STATS |Restoring 1 feature(s) from FME feature store file `C:\Users\longcham\AppData\Local\Temp\wb-cache-data_processing-PwqJxn\Main_Creator -1 2 fo 0 CREATED  0  09aa213353f8d96ebc9409bf06140f739de9125c.ffs'
+2022-12-13 14:18:21|   0.1|  0.0|INFORM|FME Configuration: Reading 12 dataset(s) with SHAPEFILE reader identified by R_1
+2022-12-13 14:18:21|   0.1|  0.0|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:21|   0.1|  0.0|INFORM|MULTI_READER(R_1): Will continue past member reader failures
+2022-12-13 14:18:21|   0.1|  0.0|INFORM|MULTI_READER(R_1): Adding SHAPEFILE Reader with keyword R_1
+2022-12-13 14:18:21|   0.1|  0.0|INFORM|Performing query against SHAPEFILE dataset `""C:\projects\EIRA-data\Data\webmap\source\Layers\piezo_contour_apr.shp" "C:\projects\EIRA-data\Data\webmap\source\Layers\piezo_contour_aug.shp" "C:\projects\EIRA-data\Data\webmap\source\Layers\piezo_contour_dec.shp" "C:\projects\EIRA-data\Data\webmap\source\Layers\piezo_contour_feb.shp" "C:\projects\EIRA-data\Data\webmap\source\Layers\piezo_contour_jan.shp" "C:\projects\EIRA-data\Data\webmap\source\Layers\piezo_contour_july.shp" "C:\projects\EIRA-data\Data\webmap\source\Layers\piezo_contour_jun.shp" "C:\projects\EIRA-data\Data\webmap\source\Layers\piezo_contour_mar.shp" "C:\projects\EIRA-data\Data\webmap\source\Layers\piezo_contour_may.shp" "C:\projects\EIRA-data\Data\webmap\source\Layers\piezo_contour_nov.shp" "C:\projects\EIRA-data\Data\webmap\source\Layers\piezo_contour_oct.shp" "C:\projects\EIRA-data\Data\webmap\source\Layers\piezo_contour_sept.shp""'
+2022-12-13 14:18:21|   0.1|  0.0|INFORM|FME Configuration: Reading 12 dataset(s) with SHAPEFILE reader identified by R_2
+2022-12-13 14:18:21|   0.1|  0.0|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:21|   0.1|  0.0|INFORM|MULTI_READER(R_2): Will continue past member reader failures
+2022-12-13 14:18:21|   0.1|  0.0|INFORM|MULTI_READER(R_2): Adding SHAPEFILE Reader with keyword R_2
+2022-12-13 14:18:21|   0.1|  0.0|INFORM|Using Multi Reader with keyword `R_2' to read multiple datasets
+2022-12-13 14:18:21|   0.1|  0.0|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:21|   0.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:21|   0.1|  0.0|INFORM|Loaded module 'SHAPEFILE' from file 'C:\app\FMEDesktop-22630-win-x64\plugins/shapefile_dbase.dll'
+2022-12-13 14:18:21|   0.1|  0.0|INFORM|FME API version of module 'shapefile_dbase' matches current internal version (4.0 20220615)
+2022-12-13 14:18:21|   0.3|  0.2|INFORM|The OGC definition of the FME coordinate system '_LL-WGS84_0' is 'GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]'
+2022-12-13 14:18:21|   0.4|  0.1|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[SHAPEFILE] set to `_LL-WGS84_0' as read from input data
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Coordinate System `_LL-WGS84_0' parameters: CS_NAME=`_LL-WGS84_0' CS_ORIGINAL_NAME=`LL-WGS84' DESC_NM=`WGS84 Lat/Longs' DT_NAME=`WGS84' ESRI_WKT=`GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]' GROUP=`LL' MAP_SCL=`1' PROJ=`LL' QUAD=`1' SCL_RED=`1' UNIT=`DEGREE'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Merging schema features from 12 datasets...
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|Merged 12 schema features read from 12 datasets into 12 resulting feature types
+2022-12-13 14:18:21|   0.4|  0.0|INFORM|FeatureReader_3_<OTHER> Feature Recorder -1 2147680296 (RecorderFactory): Splitting bulk features into individual features
+2022-12-13 14:18:21|   0.5|  0.1|INFORM|Creating writer for format: 
+2022-12-13 14:18:21|   0.5|  0.0|INFORM|Using MultiWriter with keyword `FeatureWriter_5' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2022-12-13 14:18:22|   0.6|  0.1|INFORM|Creating writer for format: MapBox MBTiles Vector Tiles (MVT)
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `MBTILES_MVT'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|Loaded module 'MBTILES_MVT' from file 'C:\app\FMEDesktop-22630-win-x64\plugins/gdal/GDAL.dll'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|FME API version of module 'gdal/GDAL' matches current internal version (4.0 20220615)
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|Writer `FeatureWriter_5_0' of type `MBTILES_MVT' using group definition keyword `FeatureWriter_5_0_DEF'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT writer: Directive '_MINZOOM' has value '0'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT writer: Directive '_MAXZOOM' has value '5'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT writer: Directive '_OVERWRITE_DB' has value 'No'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT writer: Directive '_LAYER_TYPE' has value 'overlay'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT writer: Directive '_SIMPLIFICATION' has value '0.0'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT writer: Directive '_SIMPLIFICATION_MAX_ZOOM' has value '0.0'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT writer: Directive '_EXTENT' has value '4096'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT writer: Directive '_BUFFER_SIZE_CALCULATION' has value 'AUTO'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT writer: Directive '_MAX_SIZE' has value '500000'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT writer: Directive '_MAX_FEATURES' has value '200000'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT writer: Feature Type Parameter 'mvt_description' has not been set for feature type 'Output'. Using default value ''
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT writer: Feature Type Parameter 'mvt_min_zoom' has value '0' for feature type 'Output'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT writer: Feature Type Parameter 'mvt_max_zoom' has value '15' for feature type 'Output'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT Writer: Feature Type Parameter 'fme_table_handling' has not been set for feature type 'Output'. Using default value 'CREATE_IF_MISSING'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT Writer: Feature Type Parameter 'fme_feature_operation' has not been set for feature type 'Output'. Using default value 'Insert'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT writer: Opening file 'C:\projects\EIRA-data\Data\webmap\out\piezo_contours.mbtiles'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT writer: Creating file 'C:\projects\EIRA-data\Data\webmap\out\piezo_contours.mbtiles'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|MBTILES_MVT writer: Creating layer 'piezo_contours_08' with geometry type 'wkb_unknown'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|The EPSG number of the FME coordinate system 'SPHERICAL_MERCATOR' is '3857'
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2022-12-13 14:18:22|   0.6|  0.0|INFORM|CS-MAP Reprojector: Transformation will be automatically selected for '_LL-WGS84_0' -> 'SPHERICAL_MERCATOR', and is not guaranteed to remain the same in future releases of FME
+2022-12-13 14:18:22|   0.7|  0.1|INFORM|Reprojector: Using transformation `WGS84_SPHERICAL_to_WGS84_FME,Inverse(Null)' when reprojecting from _LL-WGS84_0 to SPHERICAL_MERCATOR
+2022-12-13 14:18:22|   1.3|  0.6|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:22|   1.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:22|   1.3|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:22|   1.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[SHAPEFILE] set to `_LL-WGS84_0' as read from input data
+2022-12-13 14:18:22|   1.3|  0.0|INFORM|Coordinate System `_LL-WGS84_0' parameters: CS_NAME=`_LL-WGS84_0' CS_ORIGINAL_NAME=`LL-WGS84' DESC_NM=`WGS84 Lat/Longs' DT_NAME=`WGS84' ESRI_WKT=`GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]' GROUP=`LL' MAP_SCL=`1' PROJ=`LL' QUAD=`1' SCL_RED=`1' UNIT=`DEGREE'
+2022-12-13 14:18:22|   1.3|  0.0|INFORM|FeatureReader_3_<OTHER> Feature Recorder -1 2147680296 (RecorderFactory): Splitting bulk features into individual features
+2022-12-13 14:18:22|   1.3|  0.0|INFORM|MBTILES_MVT writer: Creating layer 'piezo_contours_12' with geometry type 'wkb_unknown'
+2022-12-13 14:18:23|   1.6|  0.3|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:23|   1.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:23|   1.6|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:23|   1.6|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[SHAPEFILE] set to `_LL-WGS84_0' as read from input data
+2022-12-13 14:18:23|   1.6|  0.0|INFORM|Coordinate System `_LL-WGS84_0' parameters: CS_NAME=`_LL-WGS84_0' CS_ORIGINAL_NAME=`LL-WGS84' DESC_NM=`WGS84 Lat/Longs' DT_NAME=`WGS84' ESRI_WKT=`GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]' GROUP=`LL' MAP_SCL=`1' PROJ=`LL' QUAD=`1' SCL_RED=`1' UNIT=`DEGREE'
+2022-12-13 14:18:23|   1.6|  0.0|INFORM|FeatureReader_3_<OTHER> Feature Recorder -1 2147680296 (RecorderFactory): Splitting bulk features into individual features
+2022-12-13 14:18:23|   1.6|  0.0|INFORM|MBTILES_MVT writer: Creating layer 'piezo_contours_02' with geometry type 'wkb_unknown'
+2022-12-13 14:18:23|   2.0|  0.4|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:23|   2.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:23|   2.0|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:23|   2.0|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[SHAPEFILE] set to `_LL-WGS84_0' as read from input data
+2022-12-13 14:18:23|   2.0|  0.0|INFORM|Coordinate System `_LL-WGS84_0' parameters: CS_NAME=`_LL-WGS84_0' CS_ORIGINAL_NAME=`LL-WGS84' DESC_NM=`WGS84 Lat/Longs' DT_NAME=`WGS84' ESRI_WKT=`GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]' GROUP=`LL' MAP_SCL=`1' PROJ=`LL' QUAD=`1' SCL_RED=`1' UNIT=`DEGREE'
+2022-12-13 14:18:23|   2.0|  0.0|INFORM|FeatureReader_3_<OTHER> Feature Recorder -1 2147680296 (RecorderFactory): Splitting bulk features into individual features
+2022-12-13 14:18:23|   2.0|  0.0|INFORM|MBTILES_MVT writer: Creating layer 'piezo_contours_01' with geometry type 'wkb_unknown'
+2022-12-13 14:18:23|   2.4|  0.4|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:23|   2.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:23|   2.4|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:23|   2.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[SHAPEFILE] set to `_LL-WGS84_0' as read from input data
+2022-12-13 14:18:23|   2.4|  0.0|INFORM|Coordinate System `_LL-WGS84_0' parameters: CS_NAME=`_LL-WGS84_0' CS_ORIGINAL_NAME=`LL-WGS84' DESC_NM=`WGS84 Lat/Longs' DT_NAME=`WGS84' ESRI_WKT=`GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]' GROUP=`LL' MAP_SCL=`1' PROJ=`LL' QUAD=`1' SCL_RED=`1' UNIT=`DEGREE'
+2022-12-13 14:18:23|   2.4|  0.0|INFORM|FeatureReader_3_<OTHER> Feature Recorder -1 2147680296 (RecorderFactory): Splitting bulk features into individual features
+2022-12-13 14:18:23|   2.4|  0.0|INFORM|MBTILES_MVT writer: Creating layer 'piezo_contours_07' with geometry type 'wkb_unknown'
+2022-12-13 14:18:24|   2.9|  0.5|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:24|   2.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:24|   2.9|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:24|   2.9|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[SHAPEFILE] set to `_LL-WGS84_0' as read from input data
+2022-12-13 14:18:24|   2.9|  0.0|INFORM|Coordinate System `_LL-WGS84_0' parameters: CS_NAME=`_LL-WGS84_0' CS_ORIGINAL_NAME=`LL-WGS84' DESC_NM=`WGS84 Lat/Longs' DT_NAME=`WGS84' ESRI_WKT=`GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]' GROUP=`LL' MAP_SCL=`1' PROJ=`LL' QUAD=`1' SCL_RED=`1' UNIT=`DEGREE'
+2022-12-13 14:18:24|   2.9|  0.0|INFORM|FeatureReader_3_<OTHER> Feature Recorder -1 2147680296 (RecorderFactory): Splitting bulk features into individual features
+2022-12-13 14:18:24|   2.9|  0.0|INFORM|MBTILES_MVT writer: Creating layer 'piezo_contours_06' with geometry type 'wkb_unknown'
+2022-12-13 14:18:24|   3.4|  0.5|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:24|   3.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:24|   3.4|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:24|   3.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[SHAPEFILE] set to `_LL-WGS84_0' as read from input data
+2022-12-13 14:18:24|   3.4|  0.0|INFORM|Coordinate System `_LL-WGS84_0' parameters: CS_NAME=`_LL-WGS84_0' CS_ORIGINAL_NAME=`LL-WGS84' DESC_NM=`WGS84 Lat/Longs' DT_NAME=`WGS84' ESRI_WKT=`GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]' GROUP=`LL' MAP_SCL=`1' PROJ=`LL' QUAD=`1' SCL_RED=`1' UNIT=`DEGREE'
+2022-12-13 14:18:24|   3.4|  0.0|INFORM|FeatureReader_3_<OTHER> Feature Recorder -1 2147680296 (RecorderFactory): Splitting bulk features into individual features
+2022-12-13 14:18:24|   3.4|  0.0|INFORM|MBTILES_MVT writer: Creating layer 'piezo_contours_03' with geometry type 'wkb_unknown'
+2022-12-13 14:18:25|   3.8|  0.4|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:25|   3.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:25|   3.8|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:25|   3.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[SHAPEFILE] set to `_LL-WGS84_0' as read from input data
+2022-12-13 14:18:25|   3.8|  0.0|INFORM|Coordinate System `_LL-WGS84_0' parameters: CS_NAME=`_LL-WGS84_0' CS_ORIGINAL_NAME=`LL-WGS84' DESC_NM=`WGS84 Lat/Longs' DT_NAME=`WGS84' ESRI_WKT=`GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]' GROUP=`LL' MAP_SCL=`1' PROJ=`LL' QUAD=`1' SCL_RED=`1' UNIT=`DEGREE'
+2022-12-13 14:18:25|   3.8|  0.0|INFORM|FeatureReader_3_<OTHER> Feature Recorder -1 2147680296 (RecorderFactory): Splitting bulk features into individual features
+2022-12-13 14:18:25|   3.8|  0.0|INFORM|MBTILES_MVT writer: Creating layer 'piezo_contours_05' with geometry type 'wkb_unknown'
+2022-12-13 14:18:25|   4.4|  0.6|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:25|   4.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:25|   4.4|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:25|   4.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[SHAPEFILE] set to `_LL-WGS84_0' as read from input data
+2022-12-13 14:18:25|   4.4|  0.0|INFORM|Coordinate System `_LL-WGS84_0' parameters: CS_NAME=`_LL-WGS84_0' CS_ORIGINAL_NAME=`LL-WGS84' DESC_NM=`WGS84 Lat/Longs' DT_NAME=`WGS84' ESRI_WKT=`GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]' GROUP=`LL' MAP_SCL=`1' PROJ=`LL' QUAD=`1' SCL_RED=`1' UNIT=`DEGREE'
+2022-12-13 14:18:25|   4.4|  0.0|INFORM|FeatureReader_3_<OTHER> Feature Recorder -1 2147680296 (RecorderFactory): Splitting bulk features into individual features
+2022-12-13 14:18:25|   4.4|  0.0|INFORM|MBTILES_MVT writer: Creating layer 'piezo_contours_11' with geometry type 'wkb_unknown'
+2022-12-13 14:18:26|   4.9|  0.5|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:26|   4.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:26|   4.9|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:26|   4.9|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[SHAPEFILE] set to `_LL-WGS84_0' as read from input data
+2022-12-13 14:18:26|   4.9|  0.0|INFORM|Coordinate System `_LL-WGS84_0' parameters: CS_NAME=`_LL-WGS84_0' CS_ORIGINAL_NAME=`LL-WGS84' DESC_NM=`WGS84 Lat/Longs' DT_NAME=`WGS84' ESRI_WKT=`GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]' GROUP=`LL' MAP_SCL=`1' PROJ=`LL' QUAD=`1' SCL_RED=`1' UNIT=`DEGREE'
+2022-12-13 14:18:26|   4.9|  0.0|INFORM|FeatureReader_3_<OTHER> Feature Recorder -1 2147680296 (RecorderFactory): Splitting bulk features into individual features
+2022-12-13 14:18:26|   4.9|  0.0|INFORM|MBTILES_MVT writer: Creating layer 'piezo_contours_10' with geometry type 'wkb_unknown'
+2022-12-13 14:18:27|   5.7|  0.8|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:27|   5.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:27|   5.7|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:27|   5.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[SHAPEFILE] set to `_LL-WGS84_0' as read from input data
+2022-12-13 14:18:27|   5.7|  0.0|INFORM|Coordinate System `_LL-WGS84_0' parameters: CS_NAME=`_LL-WGS84_0' CS_ORIGINAL_NAME=`LL-WGS84' DESC_NM=`WGS84 Lat/Longs' DT_NAME=`WGS84' ESRI_WKT=`GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]' GROUP=`LL' MAP_SCL=`1' PROJ=`LL' QUAD=`1' SCL_RED=`1' UNIT=`DEGREE'
+2022-12-13 14:18:27|   5.7|  0.0|INFORM|FeatureReader_3_<OTHER> Feature Recorder -1 2147680296 (RecorderFactory): Splitting bulk features into individual features
+2022-12-13 14:18:27|   5.7|  0.0|INFORM|MBTILES_MVT writer: Creating layer 'piezo_contours_09' with geometry type 'wkb_unknown'
+2022-12-13 14:18:27|   6.3|  0.6|INFORM|Creating reader for format: Esri Shapefile
+2022-12-13 14:18:27|   6.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SHAPEFILE'
+2022-12-13 14:18:27|   6.3|  0.0|INFORM|Shapefile reader: Reading dataset with encoding 'UTF-8' as determined by 'Codepage File'
+2022-12-13 14:18:27|   6.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[SHAPEFILE] set to `_LL-WGS84_0' as read from input data
+2022-12-13 14:18:27|   6.3|  0.0|INFORM|Coordinate System `_LL-WGS84_0' parameters: CS_NAME=`_LL-WGS84_0' CS_ORIGINAL_NAME=`LL-WGS84' DESC_NM=`WGS84 Lat/Longs' DT_NAME=`WGS84' ESRI_WKT=`GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]' GROUP=`LL' MAP_SCL=`1' PROJ=`LL' QUAD=`1' SCL_RED=`1' UNIT=`DEGREE'
+2022-12-13 14:18:27|   6.3|  0.0|INFORM|FeatureReader_3_<OTHER> Feature Recorder -1 2147680296 (RecorderFactory): Splitting bulk features into individual features
+2022-12-13 14:18:27|   6.3|  0.0|INFORM|MBTILES_MVT writer: Creating layer 'piezo_contours_04' with geometry type 'wkb_unknown'
+2022-12-13 14:18:28|   6.9|  0.6|INFORM|MULTI_READER(R_2): Done reading 406 features from 12 readers
+2022-12-13 14:18:28|   6.9|  0.0|STATS |AttributeExposer_2 (TeeFactory): Cloned 406 input feature(s) into 406 output feature(s)
+2022-12-13 14:18:28|   6.9|  0.0|STATS |AttributeValueMapper_2 (TeeFactory): Cloned 406 input feature(s) into 406 output feature(s)
+2022-12-13 14:18:28|   7.1|  0.2|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-12-13 14:18:28|   7.1|  0.0|INFORM|Feature output statistics for `MBTILES_MVT' writer using keyword `FeatureWriter_5_0':
+2022-12-13 14:18:28|   7.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-12-13 14:18:28|   7.1|  0.0|STATS |                               Features Written
+2022-12-13 14:18:28|   7.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-12-13 14:18:28|   7.1|  0.0|STATS |piezo_contours_01                                                           38
+2022-12-13 14:18:28|   7.1|  0.0|STATS |piezo_contours_02                                                           31
+2022-12-13 14:18:28|   7.1|  0.0|STATS |piezo_contours_03                                                           30
+2022-12-13 14:18:28|   7.1|  0.0|STATS |piezo_contours_04                                                           30
+2022-12-13 14:18:28|   7.1|  0.0|STATS |piezo_contours_05                                                           34
+2022-12-13 14:18:28|   7.1|  0.0|STATS |piezo_contours_06                                                           32
+2022-12-13 14:18:28|   7.1|  0.0|STATS |piezo_contours_07                                                           33
+2022-12-13 14:18:28|   7.1|  0.0|STATS |piezo_contours_08                                                           32
+2022-12-13 14:18:28|   7.1|  0.0|STATS |piezo_contours_09                                                           34
+2022-12-13 14:18:28|   7.1|  0.0|STATS |piezo_contours_10                                                           48
+2022-12-13 14:18:28|   7.2|  0.1|STATS |piezo_contours_11                                                           34
+2022-12-13 14:18:28|   7.2|  0.0|STATS |piezo_contours_12                                                           30
+2022-12-13 14:18:28|   7.2|  0.0|STATS |==============================================================================
+2022-12-13 14:18:28|   7.2|  0.0|STATS |Total Features Written                                                     406
+2022-12-13 14:18:28|   7.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-12-13 14:18:28|   7.2|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2022-12-13 14:18:28|   7.2|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-12-13 14:18:28|   7.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-12-13 14:18:28|   7.2|  0.0|STATS |                            Features Read Summary
+2022-12-13 14:18:28|   7.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-12-13 14:18:28|   7.2|  0.0|STATS |==============================================================================
+2022-12-13 14:18:28|   7.2|  0.0|STATS |Total Features Read                                                          0
+2022-12-13 14:18:28|   7.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-12-13 14:18:28|   7.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-12-13 14:18:28|   7.2|  0.0|STATS |                           Features Written Summary
+2022-12-13 14:18:28|   7.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-12-13 14:18:28|   7.2|  0.0|STATS |==============================================================================
+2022-12-13 14:18:28|   7.2|  0.0|STATS |Total Features Written                                                       0
+2022-12-13 14:18:28|   7.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-12-13 14:18:28|   7.2|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2022-12-13 14:18:28|   7.2|  0.0|WARN  |-~                                                                             ~-
+2022-12-13 14:18:28|   7.2|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2022-12-13 14:18:28|   7.2|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2022-12-13 14:18:28|   7.2|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2022-12-13 14:18:28|   7.2|  0.0|WARN  |-~                                                                             ~-
+2022-12-13 14:18:28|   7.2|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2022-12-13 14:18:28|   7.2|  0.0|INFORM|Translation was SUCCESSFUL with 9 warning(s) (0 feature(s) output)
+2022-12-13 14:18:28|   7.2|  0.0|INFORM|FME Session Duration: 7.5 seconds. (CPU: 4.2s user, 3.0s system)
+2022-12-13 14:18:28|   7.2|  0.0|INFORM|END - ProcessID: 33672, peak process memory usage: 145800 kB, current process memory usage: 140960 kB
