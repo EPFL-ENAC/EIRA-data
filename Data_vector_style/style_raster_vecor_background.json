@@ -9,7 +9,7 @@
   "sources": {
     "pbghis8kc": {
       "type": "vector",
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2022-12-14/{z}/{x}/{y}.pbf"],
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-09/{z}/{x}/{y}.pbf"],
       "minZoom": 0,
       "maxZoom": 14
     },
@@ -43,6 +43,22 @@
       "maxzoom": 6,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.1]]}}
     },
+	
+		{
+      "id": "topographic _contours",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "topographic _contours",
+      "layout": {"visibility": "visible"}
+    },{
+      "id": "SRTM contours",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "SRTM contours",
+      "layout": {"visibility": "visible"}
+    },
+	
+	
     {
       "id": "park",
       "type": "fill",

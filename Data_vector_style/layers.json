@@ -1,0 +1,176 @@
+﻿[
+	{
+		"layer_name" : "countries",
+		"alias" : "Countries",
+		"group" : "countries",
+		"active_default" : true
+	}
+	
+	,
+	{
+		"layer_name" : "SRTM contours",
+		"alias" : "SRTM contours",
+		"group" : "SRTM contours",
+		"active_default" : false
+	},
+	,
+	{
+		"layer_name" : "topographic _contours",
+		"alias" : "Topographic contours",
+		"group" : "topographic _contours",
+		"active_default" : false
+	},
+	
+	
+
+	{
+		"layer_name" : "piezo_contours_08",
+		"alias" : "Piezometer contours August",
+		"group" : "Piezometer contours",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "piezo_contours_12",
+		"alias" : "Piezometer contours December",
+		"group" : "Piezometer contours",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "piezo_contours_02",
+		"alias" : "Piezometer contours February",
+		"group" : "Piezometer contours",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "piezo_contours_01",
+		"alias" : "Piezometer contours January",
+		"group" : "Piezometer contours",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "piezo_contours_07",
+		"alias" : "Piezometer contours July",
+		"group" : "Piezometer contours",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "piezo_contours_06",
+		"alias" : "Piezometer contours June",
+		"group" : "Piezometer contours",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "piezo_contours_03",
+		"alias" : "Piezometer contours March",
+		"group" : "Piezometer contours",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "piezo_contours_05",
+		"alias" : "Piezometer contours May",
+		"group" : "Piezometer contours",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "piezo_contours_11",
+		"alias" : "Piezometer contours November",
+		"group" : "Piezometer contours",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "piezo_contours_10",
+		"alias" : "Piezometer contours October",
+		"group" : "Piezometer contours",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "piezo_contours_09",
+		"alias" : "Piezometer contours September",
+		"group" : "Piezometer contours",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "piezo_contours_04",
+		"alias" : "Piezometer contours April",
+		"group" : "Piezometer contours",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "piezometer locations",
+		"alias" : "Piezometer location",
+		"group" : "piezometer locations",
+		"active_default" : true
+	},
+	{
+		"layer_name" : "pond_08",
+		"alias" : "Pond August",
+		"group" : "Pond",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "pond_12",
+		"alias" : "Pond December",
+		"group" : "Pond",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "pond_02",
+		"alias" : "Pond February",
+		"group" : "Pond",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "pond_01",
+		"alias" : "Pond January",
+		"group" : "Pond",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "pond_07",
+		"alias" : "Pond July",
+		"group" : "Pond",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "pond_06",
+		"alias" : "Pond June",
+		"group" : "Pond",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "pond_03",
+		"alias" : "Pond March",
+		"group" : "Pond",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "pond_05",
+		"alias" : "Pond May",
+		"group" : "Pond",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "pond_11",
+		"alias" : "Pond November",
+		"group" : "Pond",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "pond_10",
+		"alias" : "Pond October",
+		"group" : "Pond",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "pond_09",
+		"alias" : "Pond September",
+		"group" : "Pond",
+		"active_default" : false
+	},
+	{
+		"layer_name" : "pond_04",
+		"alias" : "Pond April",
+		"group" : "Pond",
+		"active_default" : false
+	}
+]

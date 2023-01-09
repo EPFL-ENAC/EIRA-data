@@ -5,7 +5,7 @@
   "sources": {
     "pbghis8kc": {
       "type": "vector",
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2022-12-14/{z}/{x}/{y}.pbf"],
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-09/{z}/{x}/{y}.pbf"],
       "minZoom": 0,
       "maxZoom": 14
     }
@@ -30,11 +30,20 @@
       "layout": {"visibility": "visible"}
     }
 	,
-	
-	
-	
-	
-	
+
+	{
+      "id": "topographic _contours",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "topographic _contours",
+      "layout": {"visibility": "visible"}
+    },{
+      "id": "SRTM contours",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "SRTM contours",
+      "layout": {"visibility": "visible"}
+    },
 	
 	{
       "id": "piezo_contours_08",
