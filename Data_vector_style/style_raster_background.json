@@ -9,7 +9,7 @@
   "sources": {
     "pbghis8kc": {
       "type": "vector",
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-09/{z}/{x}/{y}.pbf"],
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/vector/{z}/{x}/{y}.pbf"],
       "minZoom": 0,
       "maxZoom": 22
     },
@@ -21,6 +21,176 @@
       ],
       "type": "raster"
     }
+	,
+	
+	 "hillshade_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/topo_hillshade/{z}/{x}/{y}.png"],
+      "type": "raster"
+    }
+	
+	,
+	
+	 "topo_clip": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/topo_clip/{z}/{x}/{y}.png"],
+      "type": "raster"
+    }
+	
+	,
+	
+	 "ponding_2_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_2/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "ponding_3_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_3/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "ponding_4_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_4/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "ponding_5_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_5/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "ponding_6_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_6/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "ponding_7_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_7/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "ponding_8_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_8/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "ponding_9_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_9/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "ponding_10_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_10/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "ponding_11_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_11/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "ponding_12_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_12/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "ponding_1_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_1/{z}/{x}/{y}.png"],
+      "type": "raster"
+    }
+	
+	,
+	
+	
+ "piezo_elev_2_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_2/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "piezo_elev_3_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_3/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "piezo_elev_4_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_4/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "piezo_elev_5_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_5/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "piezo_elev_6_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_6/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "piezo_elev_7_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_7/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "piezo_elev_8_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_8/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "piezo_elev_9_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_9/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "piezo_elev_10_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_10/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "piezo_elev_11_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_11/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "piezo_elev_12_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_12/{z}/{x}/{y}.png"],
+      "type": "raster"
+    },
+ "piezo_elev_1_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_1/{z}/{x}/{y}.png"],
+      "type": "raster"
+    }
+	
+	
   },
   "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
   "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
@@ -38,250 +208,700 @@
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}}
     },
 	
-		{
-      "id": "topographic _contours",
-      "type": "line",
-      "source": "pbghis8kc",
-      "source-layer": "topographic _contours",
-      "layout": {"visibility": "visible"}
-    },{
-      "id": "SRTM contours",
-      "type": "line",
-      "source": "pbghis8kc",
-      "source-layer": "SRTM contours",
-      "layout": {"visibility": "visible"}
-    },
-	
-    {
-      "id": "piezometer locations",
-      "type": "circle",
-      "source": "pbghis8kc",
-      "source-layer": "piezometer locations",
-      "layout": {"visibility": "visible"}
-    },
-    {
-      "id": "countries",
-      "type": "line",
-      "source": "pbghis8kc",
-      "source-layer": "countries",
-      "layout": {"visibility": "visible"}
-    },
-    {
-      "id": "piezo_contours_08",
-      "type": "line",
-      "source": "pbghis8kc",
-      "source-layer": "piezo_contours_08",
-      "layout": {"visibility": "visible"}
-    },
-    {
-      "id": "piezo_contours_12",
-      "type": "line",
-      "source": "pbghis8kc",
-      "source-layer": "piezo_contours_12",
-      "layout": {"visibility": "visible"}
-    },
-    {
-      "id": "piezo_contours_02",
-      "type": "line",
-      "source": "pbghis8kc",
-      "source-layer": "piezo_contours_02",
-      "layout": {"visibility": "visible"}
-    },
-    {
-      "id": "piezo_contours_01",
-      "type": "line",
-      "source": "pbghis8kc",
-      "source-layer": "piezo_contours_01",
-      "layout": {"visibility": "visible"}
-    },
-    {
-      "id": "piezo_contours_07",
-      "type": "line",
-      "source": "pbghis8kc",
-      "source-layer": "piezo_contours_07",
-      "layout": {"visibility": "visible"}
-    },
-    {
-      "id": "piezo_contours_06",
-      "type": "line",
-      "source": "pbghis8kc",
-      "source-layer": "piezo_contours_06",
-      "layout": {"visibility": "visible"}
-    },
-    {
-      "id": "piezo_contours_03",
-      "type": "line",
-      "source": "pbghis8kc",
-      "source-layer": "piezo_contours_03",
-      "layout": {"visibility": "visible"}
-    },
-    {
-      "id": "piezo_contours_05",
-      "type": "line",
-      "source": "pbghis8kc",
-      "source-layer": "piezo_contours_05",
-      "layout": {"visibility": "visible"}
-    },
-    {
-      "id": "piezo_contours_11",
-      "type": "line",
-      "source": "pbghis8kc",
-      "source-layer": "piezo_contours_11",
-      "layout": {"visibility": "visible"}
-    },
-    {
-      "id": "piezo_contours_10",
-      "type": "line",
-      "source": "pbghis8kc",
-      "source-layer": "piezo_contours_10",
-      "layout": {"visibility": "visible"}
-    },
-    {
-      "id": "piezo_contours_09",
-      "type": "line",
-      "source": "pbghis8kc",
-      "source-layer": "piezo_contours_09",
-      "layout": {"visibility": "visible"}
-    },
-    {
-      "id": "piezo_contours_04",
-      "type": "line",
-      "source": "pbghis8kc",
-      "source-layer": "piezo_contours_04",
-      "layout": {"visibility": "visible"}
-    },
-    {
-      "id": "pond_08",
-      "type": "fill",
-      "source": "pbghis8kc",
-      "source-layer": "pond_08",
-      "layout": {"visibility": "visible"},
-      "paint": {
-        "fill-color": "rgba(30, 30, 213, 1)",
-        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
-      }
-    },
-    {
-      "id": "pond_12",
-      "type": "fill",
-      "source": "pbghis8kc",
-      "source-layer": "pond_12",
-      "layout": {"visibility": "visible"},
-      "paint": {
-        "fill-color": "rgba(30, 30, 213, 1)",
-        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
-      }
-    },
-    {
-      "id": "pond_02",
-      "type": "fill",
-      "source": "pbghis8kc",
-      "source-layer": "pond_02",
-      "layout": {"visibility": "visible"},
-      "paint": {
-        "fill-color": "rgba(30, 30, 213, 1)",
-        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
-      }
-    },
-    {
-      "id": "pond_01",
-      "type": "fill",
-      "source": "pbghis8kc",
-      "source-layer": "pond_01",
-      "layout": {"visibility": "visible"},
-      "paint": {
-        "fill-color": "rgba(30, 30, 213, 1)",
-        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
-      }
-    },
-    {
-      "id": "pond_07",
-      "type": "fill",
-      "source": "pbghis8kc",
-      "source-layer": "pond_07",
-      "layout": {"visibility": "visible"},
-      "paint": {
-        "fill-color": "rgba(30, 30, 213, 1)",
-        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
-      }
-    },
-    {
-      "id": "pond_06",
-      "type": "fill",
-      "source": "pbghis8kc",
-      "source-layer": "pond_06",
-      "layout": {"visibility": "visible"},
-      "paint": {
-        "fill-color": "rgba(30, 30, 213, 1)",
-        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
-      }
-    },
-    {
-      "id": "pond_03",
-      "type": "fill",
-      "source": "pbghis8kc",
-      "source-layer": "pond_03",
-      "layout": {"visibility": "visible"},
-      "paint": {
-        "fill-color": "rgba(30, 30, 213, 1)",
-        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
-      }
-    },
-    {
-      "id": "pond_05",
-      "type": "fill",
-      "source": "pbghis8kc",
-      "source-layer": "pond_05",
-      "layout": {"visibility": "visible"},
-      "paint": {
-        "fill-color": "rgba(30, 30, 213, 1)",
-        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
-      }
-    },
-    {
-      "id": "pond_11",
-      "type": "fill",
-      "source": "pbghis8kc",
-      "source-layer": "pond_11",
-      "layout": {"visibility": "visible"},
-      "paint": {
-        "fill-color": "rgba(30, 30, 213, 1)",
-        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
-      }
-    },
-    {
-      "id": "pond_10",
-      "type": "fill",
-      "source": "pbghis8kc",
-      "source-layer": "pond_10",
-      "layout": {"visibility": "visible"},
-      "paint": {
-        "fill-color": "rgba(30, 30, 213, 1)",
-        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
-      }
-    },
-    {
-      "id": "pond_09",
-      "type": "fill",
-      "source": "pbghis8kc",
-      "source-layer": "pond_09",
-      "layout": {"visibility": "visible"},
-      "paint": {
-        "fill-color": "rgba(30, 30, 213, 1)",
-        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
-      }
-    },
-    {
-      "id": "pond_04",
-      "type": "fill",
-      "source": "pbghis8kc",
-      "source-layer": "pond_04",
-      "layout": {"visibility": "visible"},
-      "paint": {
-        "fill-color": "rgba(30, 30, 213, 1)",
-        "fill-outline-color": "rgba(0, 0, 0, 0.9)"
-      }
+	{
+      "id": "hillshade",
+      "type": "raster",
+      "source": "hillshade_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
     }
+	,
+	
+	{
+      "id": "topo_clip",
+      "type": "raster",
+      "source": "topo_clip",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    }
+	
+	,
+	
+	{
+      "id": "ponding_2",
+      "type": "raster",
+      "source": "ponding_2_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "ponding_3",
+      "type": "raster",
+      "source": "ponding_3_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "ponding_4",
+      "type": "raster",
+      "source": "ponding_4_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "ponding_5",
+      "type": "raster",
+      "source": "ponding_5_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "ponding_6",
+      "type": "raster",
+      "source": "ponding_6_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "ponding_7",
+      "type": "raster",
+      "source": "ponding_7_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "ponding_8",
+      "type": "raster",
+      "source": "ponding_8_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "ponding_9",
+      "type": "raster",
+      "source": "ponding_9_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "ponding_10",
+      "type": "raster",
+      "source": "ponding_10_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "ponding_11",
+      "type": "raster",
+      "source": "ponding_11_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "ponding_12",
+      "type": "raster",
+      "source": "ponding_12_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "ponding_1",
+      "type": "raster",
+      "source": "ponding_1_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    }
+	
+	,
+	
+	{
+      "id": "piezo_elev_2",
+      "type": "raster",
+      "source": "piezo_elev_2_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "piezo_elev_3",
+      "type": "raster",
+      "source": "piezo_elev_3_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "piezo_elev_4",
+      "type": "raster",
+      "source": "piezo_elev_4_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "piezo_elev_5",
+      "type": "raster",
+      "source": "piezo_elev_5_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "piezo_elev_6",
+      "type": "raster",
+      "source": "piezo_elev_6_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "piezo_elev_7",
+      "type": "raster",
+      "source": "piezo_elev_7_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "piezo_elev_8",
+      "type": "raster",
+      "source": "piezo_elev_8_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "piezo_elev_9",
+      "type": "raster",
+      "source": "piezo_elev_9_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "piezo_elev_10",
+      "type": "raster",
+      "source": "piezo_elev_10_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "piezo_elev_11",
+      "type": "raster",
+      "source": "piezo_elev_11_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "piezo_elev_12",
+      "type": "raster",
+      "source": "piezo_elev_12_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    },
+{
+      "id": "piezo_elev_1",
+      "type": "raster",
+      "source": "piezo_elev_1_raster",
+      "maxzoom": 22,
+      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
+      "layout": {"visibility": "none"}
+    }
+	
+	,
+	
+	    {
+  "id": "piezometer_locations",
+  "type": "circle",
+  "source": "pbghis8kc",
+  "source-layer": "piezometer_locations",
+  "layout": {"visibility": "none"},
+  "paint": {
+    "circle-radius": 5,
+    "circle-stroke-color": "rgba(0, 0, 0, 1)",
+    "circle-color": "rgba(255, 255, 255, 1)",
+    "circle-stroke-width": 1
+  }
+},{
+      "id": "data_extent",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "data_extent",
+      "layout": {"visibility": "visible"}
+    },
+{
+      "id": "approximate_development_limit",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "approximate_development_limit",
+      "layout": {"line-join": "round", "visibility": "visible"},
+      "paint": {
+        "line-color": "#9e9cab",
+        "line-dasharray": [3, 1, 1, 1],
+        "line-width": {"base": 1.4, "stops": [[4, 0.4], [5, 1], [12, 3]]}
+      }
+    },{
+      "id": "piezo_contour-1",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-1",
+      "layout": {"visibility": "none"},
+      "paint": {
+    "line-color": "rgba(2, 25, 255, 1)",
+	"layout": {"visibility": "none"}
+  }
+    },{
+      "id": "piezo_contour-10",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-10",
+      "layout": {"visibility": "none"},
+      "paint": {
+    "line-color": "rgba(2, 25, 255, 1)"
+  }
+    },{
+      "id": "piezo_contour-11",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-11",
+      "layout": {"visibility": "none"},
+      "paint": {
+    "line-color": "rgba(2, 25, 255, 1)"
+  }
+    },{
+      "id": "piezo_contour-12",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-12",
+      "layout": {"visibility": "none"},
+      "paint": {
+    "line-color": "rgba(2, 25, 255, 1)"
+  }
+    },{
+      "id": "piezo_contour-2",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-2",
+      "layout": {"visibility": "none"},
+      "paint": {
+    "line-color": "rgba(2, 25, 255, 1)"
+  }
+    },{
+      "id": "piezo_contour-3",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-3",
+      "layout": {"visibility": "none"},
+      "paint": {
+    "line-color": "rgba(2, 25, 255, 1)"
+  }
+    },{
+      "id": "piezo_contour-4",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-4",
+      "layout": {"visibility": "none"},
+      "paint": {
+    "line-color": "rgba(2, 25, 255, 1)"
+  }
+    },{
+      "id": "piezo_contour-5",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-5",
+      "layout": {"visibility": "none"},
+      "paint": {
+    "line-color": "rgba(2, 25, 255, 1)"
+  }
+    },{
+      "id": "piezo_contour-6",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-6",
+      "layout": {"visibility": "none"},
+      "paint": {
+    "line-color": "rgba(2, 25, 255, 1)"
+  }
+    },{
+      "id": "piezo_contour-7",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-7",
+      "layout": {"visibility": "none"},
+      "paint": {
+    "line-color": "rgba(2, 25, 255, 1)"
+  }
+    },{
+      "id": "piezo_contour-8",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-8",
+      "layout": {"visibility": "none"},
+      "paint": {
+    "line-color": "rgba(2, 25, 255, 1)"
+  }
+    },{
+      "id": "piezo_contour-9",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-9",
+      "layout": {"visibility": "none"},
+      "paint": {
+    "line-color": "rgba(2, 25, 255, 1)"
+  }
+    },{
+      "id": "topo_clipped",
+      "type": "line",
+      "source": "pbghis8kc",
+      "source-layer": "topo_clipped",
+      "layout": {"visibility": "none"},
+	  "paint": {
+    "line-color": "rgba(211, 211, 211, 1)"
+  }
+    },
+    
+    {
+  "id": "text-piezo_contour-1",
+  "type": "symbol",
+  "source": "pbghis8kc",
+  "source-layer": "piezo_contour-1",
+  "minzoom": 5,
+  "layout": {
+    "symbol-placement": "line",
+    "text-field": "{elevation}",
+    "text-font": ["Noto Sans Regular"],
+    "text-rotation-alignment": "map",
+    "text-size": {
+      "base": 1,
+      "stops": [[13, 20], [14, 20]]
+    },
+    "visibility": "none",
+    "text-padding": 1,
+    "text-allow-overlap": false,
+    "text-anchor": "top"
+  },
+  "paint": {
+    "text-color": "#0219FF",
+    "text-halo-blur": 0.5,
+    "text-halo-width": 1
+  }
+},
+    
+    {
+  "id": "text-piezo_contour-10",
+  "type": "symbol",
+  "source": "pbghis8kc",
+  "source-layer": "piezo_contour-10",
+  "minzoom": 5,
+  "layout": {
+    "symbol-placement": "line",
+    "text-field": "{elevation}",
+    "text-font": ["Noto Sans Regular"],
+    "text-rotation-alignment": "map",
+    "text-size": {
+      "base": 1,
+      "stops": [[13, 20], [14, 20]]
+    },
+    "visibility": "none",
+    "text-padding": 1,
+    "text-allow-overlap": false,
+    "text-anchor": "top"
+  },
+  "paint": {
+    "text-color": "#0219FF",
+    "text-halo-blur": 0.5,
+    "text-halo-width": 1
+  }
+},
+    
+    {
+  "id": "text-piezo_contour-11",
+  "type": "symbol",
+  "source": "pbghis8kc",
+  "source-layer": "piezo_contour-11",
+  "minzoom": 5,
+  "layout": {
+    "symbol-placement": "line",
+    "text-field": "{elevation}",
+    "text-font": ["Noto Sans Regular"],
+    "text-rotation-alignment": "map",
+    "text-size": {
+      "base": 1,
+      "stops": [[13, 20], [14, 20]]
+    },
+    "visibility": "none",
+    "text-padding": 1,
+    "text-allow-overlap": false,
+    "text-anchor": "top"
+  },
+  "paint": {
+    "text-color": "#0219FF",
+    "text-halo-blur": 0.5,
+    "text-halo-width": 1
+  }
+},
+    
+    {
+  "id": "text-piezo_contour-12",
+  "type": "symbol",
+  "source": "pbghis8kc",
+  "source-layer": "piezo_contour-12",
+  "minzoom": 5,
+  "layout": {
+    "symbol-placement": "line",
+    "text-field": "{elevation}",
+    "text-font": ["Noto Sans Regular"],
+    "text-rotation-alignment": "map",
+    "text-size": {
+      "base": 1,
+      "stops": [[13, 20], [14, 20]]
+    },
+    "visibility": "none",
+    "text-padding": 1,
+    "text-allow-overlap": false,
+    "text-anchor": "top"
+  },
+  "paint": {
+    "text-color": "#0219FF",
+    "text-halo-blur": 0.5,
+    "text-halo-width": 1
+  }
+},
+    
+    {
+  "id": "text-piezo_contour-2",
+  "type": "symbol",
+  "source": "pbghis8kc",
+  "source-layer": "piezo_contour-2",
+  "minzoom": 5,
+  "layout": {
+    "symbol-placement": "line",
+    "text-field": "{elevation}",
+    "text-font": ["Noto Sans Regular"],
+    "text-rotation-alignment": "map",
+    "text-size": {
+      "base": 1,
+      "stops": [[13, 20], [14, 20]]
+    },
+    "visibility": "none",
+    "text-padding": 1,
+    "text-allow-overlap": false,
+    "text-anchor": "top"
+  },
+  "paint": {
+    "text-color": "#0219FF",
+    "text-halo-blur": 0.5,
+    "text-halo-width": 1
+  }
+},
+    
+    {
+  "id": "text-piezo_contour-3",
+  "type": "symbol",
+  "source": "pbghis8kc",
+  "source-layer": "piezo_contour-3",
+  "minzoom": 5,
+  "layout": {
+    "symbol-placement": "line",
+    "text-field": "{elevation}",
+    "text-font": ["Noto Sans Regular"],
+    "text-rotation-alignment": "map",
+    "text-size": {
+      "base": 1,
+      "stops": [[13, 20], [14, 20]]
+    },
+    "visibility": "none",
+    "text-padding": 1,
+    "text-allow-overlap": false,
+    "text-anchor": "top"
+  },
+  "paint": {
+    "text-color": "#0219FF",
+    "text-halo-blur": 0.5,
+    "text-halo-width": 1
+  }
+},
+    
+    {
+  "id": "text-piezo_contour-4",
+  "type": "symbol",
+  "source": "pbghis8kc",
+  "source-layer": "piezo_contour-4",
+  "minzoom": 5,
+  "layout": {
+    "symbol-placement": "line",
+    "text-field": "{elevation}",
+    "text-font": ["Noto Sans Regular"],
+    "text-rotation-alignment": "map",
+    "text-size": {
+      "base": 1,
+      "stops": [[13, 20], [14, 20]]
+    },
+    "visibility": "none",
+    "text-padding": 1,
+    "text-allow-overlap": false,
+    "text-anchor": "top"
+  },
+  "paint": {
+    "text-color": "#0219FF",
+    "text-halo-blur": 0.5,
+    "text-halo-width": 1
+  }
+},
+    
+    {
+  "id": "text-piezo_contour-5",
+  "type": "symbol",
+  "source": "pbghis8kc",
+  "source-layer": "piezo_contour-5",
+  "minzoom": 5,
+  "layout": {
+    "symbol-placement": "line",
+    "text-field": "{elevation}",
+    "text-font": ["Noto Sans Regular"],
+    "text-rotation-alignment": "map",
+    "text-size": {
+      "base": 1,
+      "stops": [[13, 20], [14, 20]]
+    },
+    "visibility": "none",
+    "text-padding": 1,
+    "text-allow-overlap": false,
+    "text-anchor": "top"
+  },
+  "paint": {
+    "text-color": "#0219FF",
+    "text-halo-blur": 0.5,
+    "text-halo-width": 1
+  }
+},
+    
+    {
+  "id": "text-piezo_contour-6",
+  "type": "symbol",
+  "source": "pbghis8kc",
+  "source-layer": "piezo_contour-6",
+  "minzoom": 5,
+  "layout": {
+    "symbol-placement": "line",
+    "text-field": "{elevation}",
+    "text-font": ["Noto Sans Regular"],
+    "text-rotation-alignment": "map",
+    "text-size": {
+      "base": 1,
+      "stops": [[13, 20], [14, 20]]
+    },
+    "visibility": "none",
+    "text-padding": 1,
+    "text-allow-overlap": false,
+    "text-anchor": "top"
+  },
+  "paint": {
+    "text-color": "#0219FF",
+    "text-halo-blur": 0.5,
+    "text-halo-width": 1
+  }
+},
+    
+    {
+  "id": "text-piezo_contour-7",
+  "type": "symbol",
+  "source": "pbghis8kc",
+  "source-layer": "piezo_contour-7",
+  "minzoom": 5,
+  "layout": {
+    "symbol-placement": "line",
+    "text-field": "{elevation}",
+    "text-font": ["Noto Sans Regular"],
+    "text-rotation-alignment": "map",
+    "text-size": {
+      "base": 1,
+      "stops": [[13, 20], [14, 20]]
+    },
+    "visibility": "none",
+    "text-padding": 1,
+    "text-allow-overlap": false,
+    "text-anchor": "top"
+  },
+  "paint": {
+    "text-color": "#0219FF",
+    "text-halo-blur": 0.5,
+    "text-halo-width": 1
+  }
+},
+    
+    {
+  "id": "text-piezo_contour-8",
+  "type": "symbol",
+  "source": "pbghis8kc",
+  "source-layer": "piezo_contour-8",
+  "minzoom": 5,
+  "layout": {
+    "symbol-placement": "line",
+    "text-field": "{elevation}",
+    "text-font": ["Noto Sans Regular"],
+    "text-rotation-alignment": "map",
+    "text-size": {
+      "base": 1,
+      "stops": [[13, 20], [14, 20]]
+    },
+    "visibility": "none",
+    "text-padding": 1,
+    "text-allow-overlap": false,
+    "text-anchor": "top"
+  },
+  "paint": {
+    "text-color": "#0219FF",
+    "text-halo-blur": 0.5,
+    "text-halo-width": 1
+  }
+},
+    
+    {
+  "id": "text-piezo_contour-9",
+  "type": "symbol",
+  "source": "pbghis8kc",
+  "source-layer": "piezo_contour-9",
+  "minzoom": 5,
+  "layout": {
+    "symbol-placement": "line",
+    "text-field": "{elevation}",
+    "text-font": ["Noto Sans Regular"],
+    "text-rotation-alignment": "map",
+    "text-size": {
+      "base": 1,
+      "stops": [[13, 20], [14, 20]]
+    },
+    "visibility": "none",
+    "text-padding": 1,
+    "text-allow-overlap": false,
+    "text-anchor": "top"
+  },
+  "paint": {
+    "text-color": "#0219FF",
+    "text-halo-blur": 0.5,
+    "text-halo-width": 1
+  }
+}
+	
+		
   ],
   "id": "osm-liberty"
 }
