@@ -464,8 +464,7 @@
       "source-layer": "piezo_contour-1",
       "layout": {"visibility": "none"},
       "paint": {
-    "line-color": "rgba(2, 25, 255, 1)",
-	"layout": {"visibility": "none"}
+    "line-color": "rgba(2, 25, 255, 1)"
   }
     },{
       "id": "piezo_contour_10",
