@@ -9,7 +9,9 @@
   "sources": {
     "pbghis8kc": {
       "type": "vector",
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/vector/{z}/{x}/{y}.pbf"],
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/vector/{z}/{x}/{y}.pbf"
+      ],
       "minZoom": 0,
       "maxZoom": 22
     },
@@ -20,177 +22,218 @@
         "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}"
       ],
       "type": "raster"
+    },
+    "hillshade_raster": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/topo_hillshade/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+
+    "topo_clip": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/topo_clip/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+
+    "ponding-raster_2": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_2/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "ponding-raster_3": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_3/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "ponding-raster_4": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_4/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "ponding-raster_5": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_5/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "ponding-raster_6": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_6/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "ponding-raster_7": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_7/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "ponding-raster_8": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_8/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "ponding-raster_9": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_9/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "ponding-raster_10": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_10/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "ponding-raster_11": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_11/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "ponding-raster_12": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_12/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "ponding-raster_1": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_1/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+
+    "piezo-elev-raster_2": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_2/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "piezo-elev-raster_3": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_3/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "piezo-elev-raster_4": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_4/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "piezo-elev-raster_5": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_5/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "piezo-elev-raster_6": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_6/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "piezo-elev-raster_7": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_7/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "piezo-elev-raster_8": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_8/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "piezo-elev-raster_9": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_9/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "piezo-elev-raster_10": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_10/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "piezo-elev-raster_11": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_11/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "piezo-elev-raster_12": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_12/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "piezo-elev-raster_1": {
+      "maxzoom": 22,
+      "tileSize": 256,
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_1/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
     }
-	,
-	
-	 "hillshade_raster": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/topo_hillshade/{z}/{x}/{y}.png"],
-      "type": "raster"
-    }
-	
-	,
-	
-	 "topo_clip": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/topo_clip/{z}/{x}/{y}.png"],
-      "type": "raster"
-    }
-	
-	,
-	
-	 "ponding-raster_2": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_2/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "ponding-raster_3": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_3/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "ponding-raster_4": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_4/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "ponding-raster_5": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_5/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "ponding-raster_6": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_6/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "ponding-raster_7": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_7/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "ponding-raster_8": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_8/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "ponding-raster_9": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_9/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "ponding-raster_10": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_10/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "ponding-raster_11": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_11/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "ponding-raster_12": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_12/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "ponding-raster_1": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_1/{z}/{x}/{y}.png"],
-      "type": "raster"
-    }
-	
-	,
-	
-	
- "piezo-elev-raster_2": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_2/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "piezo-elev-raster_3": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_3/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "piezo-elev-raster_4": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_4/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "piezo-elev-raster_5": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_5/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "piezo-elev-raster_6": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_6/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "piezo-elev-raster_7": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_7/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "piezo-elev-raster_8": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_8/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "piezo-elev-raster_9": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_9/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "piezo-elev-raster_10": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_10/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "piezo-elev-raster_11": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_11/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "piezo-elev-raster_12": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_12/{z}/{x}/{y}.png"],
-      "type": "raster"
-    },
- "piezo-elev-raster_1": {
-      "maxzoom": 22,
-      "tileSize": 256,
-      "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_1/{z}/{x}/{y}.png"],
-      "type": "raster"
-    }
-	
-	
   },
   "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
   "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
@@ -198,709 +241,972 @@
     {
       "id": "background",
       "type": "background",
-      "paint": {"background-color": "rgb(239,239,239)"}
+      "paint": { "background-color": "rgb(239,239,239)" }
     },
-	    {
+    {
       "id": "natural_earth",
       "type": "raster",
       "source": "natural_earth_shaded_relief",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      }
     },
-	
-	{
+
+    {
       "id": "hillshade",
       "type": "raster",
       "source": "hillshade_raster",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
-    }
-	,
-	
-	{
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
+    },
+    {
       "id": "topo_clip",
       "type": "raster",
       "source": "topo_clip",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
-    }
-	
-	,
-	
-	{
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
+    },
+
+    {
       "id": "ponding-raster_2",
       "type": "raster",
       "source": "ponding-raster_2",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "ponding-raster_3",
       "type": "raster",
       "source": "ponding-raster_3",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "ponding-raster_4",
       "type": "raster",
       "source": "ponding-raster_4",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "ponding-raster_5",
       "type": "raster",
       "source": "ponding-raster_5",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "ponding-raster_6",
       "type": "raster",
       "source": "ponding-raster_6",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "ponding-raster_7",
       "type": "raster",
       "source": "ponding-raster_7",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "ponding-raster_8",
       "type": "raster",
       "source": "ponding-raster_8",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "ponding-raster_9",
       "type": "raster",
       "source": "ponding-raster_9",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "ponding-raster_10",
       "type": "raster",
       "source": "ponding-raster_10",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "ponding-raster_11",
       "type": "raster",
       "source": "ponding-raster_11",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "ponding-raster_12",
       "type": "raster",
       "source": "ponding-raster_12",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "ponding-raster_1",
       "type": "raster",
       "source": "ponding-raster_1",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
-    }
-	
-	,
-	
-	{
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
+    },
+
+    {
       "id": "piezo-elev-raster_2",
       "type": "raster",
       "source": "piezo-elev-raster_2",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "piezo-elev-raster_3",
       "type": "raster",
       "source": "piezo-elev-raster_3",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "piezo-elev-raster_4",
       "type": "raster",
       "source": "piezo-elev-raster_4",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "piezo-elev-raster_5",
       "type": "raster",
       "source": "piezo-elev-raster_5",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "piezo-elev-raster_6",
       "type": "raster",
       "source": "piezo-elev-raster_6",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "piezo-elev-raster_7",
       "type": "raster",
       "source": "piezo-elev-raster_7",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "piezo-elev-raster_8",
       "type": "raster",
       "source": "piezo-elev-raster_8",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "piezo-elev-raster_9",
       "type": "raster",
       "source": "piezo-elev-raster_9",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "piezo-elev-raster_10",
       "type": "raster",
       "source": "piezo-elev-raster_10",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "piezo-elev-raster_11",
       "type": "raster",
       "source": "piezo-elev-raster_11",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "piezo-elev-raster_12",
       "type": "raster",
       "source": "piezo-elev-raster_12",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
     },
-{
+    {
       "id": "piezo-elev-raster_1",
       "type": "raster",
       "source": "piezo-elev-raster_1",
       "maxzoom": 22,
-      "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
-      "layout": {"visibility": "none"}
-    }
-	
-	,
-	
-	    {
-  "id": "piezometer_locations",
-  "type": "circle",
-  "source": "pbghis8kc",
-  "source-layer": "piezometer_locations",
-  "layout": {"visibility": "none"},
-  "paint": {
-    "circle-radius": 5,
-    "circle-stroke-color": "rgba(0, 0, 0, 1)",
-    "circle-color": "rgba(255, 255, 255, 1)",
-    "circle-stroke-width": 1
-  }
-},{
+      "paint": {
+        "raster-opacity": {
+          "base": 1.5,
+          "stops": [
+            [0, 0.6],
+            [6, 0.6]
+          ]
+        }
+      },
+      "layout": { "visibility": "none" }
+    },
+
+    {
+      "id": "piezometer_locations",
+      "type": "circle",
+      "source": "pbghis8kc",
+      "source-layer": "piezometer_locations",
+      "layout": { "visibility": "none" },
+      "paint": {
+        "circle-radius": 5,
+        "circle-stroke-color": "rgba(0, 0, 0, 1)",
+        "circle-color": "rgba(255, 255, 255, 1)",
+        "circle-stroke-width": 1
+      }
+    },
+    {
       "id": "data_extent",
       "type": "line",
       "source": "pbghis8kc",
       "source-layer": "data_extent",
-      "layout": {"visibility": "visible"}
+      "layout": { "visibility": "visible" }
     },
-{
+    {
       "id": "approximate_development_limit",
       "type": "line",
       "source": "pbghis8kc",
       "source-layer": "approximate_development_limit",
-      "layout": {"line-join": "round", "visibility": "visible"},
+      "layout": { "line-join": "round", "visibility": "visible" },
       "paint": {
         "line-color": "#9e9cab",
         "line-dasharray": [3, 1, 1, 1],
-        "line-width": {"base": 1.4, "stops": [[4, 0.4], [5, 1], [12, 3]]}
+        "line-width": {
+          "base": 1.4,
+          "stops": [
+            [4, 0.4],
+            [5, 1],
+            [12, 3]
+          ]
+        }
       }
-    },{
+    },
+    {
       "id": "piezo_contour_1",
       "type": "line",
       "source": "pbghis8kc",
       "source-layer": "piezo_contour-1",
-      "layout": {"visibility": "none"},
+      "layout": { "visibility": "none" },
       "paint": {
-    "line-color": "rgba(2, 25, 255, 1)"
-  }
-    },{
+        "line-color": "rgba(2, 25, 255, 1)"
+      }
+    },
+    {
       "id": "piezo_contour_10",
       "type": "line",
       "source": "pbghis8kc",
       "source-layer": "piezo_contour-10",
-      "layout": {"visibility": "none"},
+      "layout": { "visibility": "none" },
       "paint": {
-    "line-color": "rgba(2, 25, 255, 1)"
-  }
-    },{
+        "line-color": "rgba(2, 25, 255, 1)"
+      }
+    },
+    {
       "id": "piezo_contour_11",
       "type": "line",
       "source": "pbghis8kc",
       "source-layer": "piezo_contour-11",
-      "layout": {"visibility": "none"},
+      "layout": { "visibility": "none" },
       "paint": {
-    "line-color": "rgba(2, 25, 255, 1)"
-  }
-    },{
+        "line-color": "rgba(2, 25, 255, 1)"
+      }
+    },
+    {
       "id": "piezo_contour_12",
       "type": "line",
       "source": "pbghis8kc",
       "source-layer": "piezo_contour-12",
-      "layout": {"visibility": "none"},
+      "layout": { "visibility": "none" },
       "paint": {
-    "line-color": "rgba(2, 25, 255, 1)"
-  }
-    },{
+        "line-color": "rgba(2, 25, 255, 1)"
+      }
+    },
+    {
       "id": "piezo_contour_2",
       "type": "line",
       "source": "pbghis8kc",
       "source-layer": "piezo_contour-2",
-      "layout": {"visibility": "none"},
+      "layout": { "visibility": "none" },
       "paint": {
-    "line-color": "rgba(2, 25, 255, 1)"
-  }
-    },{
+        "line-color": "rgba(2, 25, 255, 1)"
+      }
+    },
+    {
       "id": "piezo_contour_3",
       "type": "line",
       "source": "pbghis8kc",
       "source-layer": "piezo_contour-3",
-      "layout": {"visibility": "none"},
+      "layout": { "visibility": "none" },
       "paint": {
-    "line-color": "rgba(2, 25, 255, 1)"
-  }
-    },{
+        "line-color": "rgba(2, 25, 255, 1)"
+      }
+    },
+    {
       "id": "piezo_contour_4",
       "type": "line",
       "source": "pbghis8kc",
       "source-layer": "piezo_contour-4",
-      "layout": {"visibility": "none"},
+      "layout": { "visibility": "none" },
       "paint": {
-    "line-color": "rgba(2, 25, 255, 1)"
-  }
-    },{
+        "line-color": "rgba(2, 25, 255, 1)"
+      }
+    },
+    {
       "id": "piezo_contour_5",
       "type": "line",
       "source": "pbghis8kc",
       "source-layer": "piezo_contour-5",
-      "layout": {"visibility": "none"},
+      "layout": { "visibility": "none" },
       "paint": {
-    "line-color": "rgba(2, 25, 255, 1)"
-  }
-    },{
+        "line-color": "rgba(2, 25, 255, 1)"
+      }
+    },
+    {
       "id": "piezo_contour_6",
       "type": "line",
       "source": "pbghis8kc",
       "source-layer": "piezo_contour-6",
-      "layout": {"visibility": "none"},
+      "layout": { "visibility": "none" },
       "paint": {
-    "line-color": "rgba(2, 25, 255, 1)"
-  }
-    },{
+        "line-color": "rgba(2, 25, 255, 1)"
+      }
+    },
+    {
       "id": "piezo_contour_7",
       "type": "line",
       "source": "pbghis8kc",
       "source-layer": "piezo_contour-7",
-      "layout": {"visibility": "none"},
+      "layout": { "visibility": "none" },
       "paint": {
-    "line-color": "rgba(2, 25, 255, 1)"
-  }
-    },{
+        "line-color": "rgba(2, 25, 255, 1)"
+      }
+    },
+    {
       "id": "piezo_contour_8",
       "type": "line",
       "source": "pbghis8kc",
       "source-layer": "piezo_contour-8",
-      "layout": {"visibility": "none"},
+      "layout": { "visibility": "none" },
       "paint": {
-    "line-color": "rgba(2, 25, 255, 1)"
-  }
-    },{
+        "line-color": "rgba(2, 25, 255, 1)"
+      }
+    },
+    {
       "id": "piezo_contour_9",
       "type": "line",
       "source": "pbghis8kc",
       "source-layer": "piezo_contour-9",
-      "layout": {"visibility": "none"},
+      "layout": { "visibility": "none" },
       "paint": {
-    "line-color": "rgba(2, 25, 255, 1)"
-  }
-    },{
+        "line-color": "rgba(2, 25, 255, 1)"
+      }
+    },
+    {
       "id": "topo_clipped",
       "type": "line",
       "source": "pbghis8kc",
       "source-layer": "topo_clipped",
-      "layout": {"visibility": "none"},
-	  "paint": {
-    "line-color": "rgba(211, 211, 211, 1)"
-  }
+      "layout": { "visibility": "none" },
+      "paint": {
+        "line-color": "rgba(211, 211, 211, 1)"
+      }
     },
-    
+
     {
-  "id": "text-piezo_contour_1",
-  "type": "symbol",
-  "source": "pbghis8kc",
-  "source-layer": "piezo_contour-1",
-  "minzoom": 5,
-  "layout": {
-    "symbol-placement": "line",
-    "text-field": "{elevation}",
-    "text-font": ["Noto Sans Regular"],
-    "text-rotation-alignment": "map",
-    "text-size": {
-      "base": 1,
-      "stops": [[13, 20], [14, 20]]
+      "id": "text-piezo_contour_1",
+      "type": "symbol",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-1",
+      "minzoom": 5,
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": "{elevation}",
+        "text-font": ["Noto Sans Regular"],
+        "text-rotation-alignment": "map",
+        "text-size": {
+          "base": 1,
+          "stops": [
+            [13, 20],
+            [14, 20]
+          ]
+        },
+        "visibility": "none",
+        "text-padding": 1,
+        "text-allow-overlap": false,
+        "text-anchor": "top"
+      },
+      "paint": {
+        "text-color": "#0219FF",
+        "text-halo-blur": 0.5,
+        "text-halo-width": 1
+      }
     },
-    "visibility": "none",
-    "text-padding": 1,
-    "text-allow-overlap": false,
-    "text-anchor": "top"
-  },
-  "paint": {
-    "text-color": "#0219FF",
-    "text-halo-blur": 0.5,
-    "text-halo-width": 1
-  }
-},
-    
+
     {
-  "id": "text-piezo_contour_10",
-  "type": "symbol",
-  "source": "pbghis8kc",
-  "source-layer": "piezo_contour-10",
-  "minzoom": 5,
-  "layout": {
-    "symbol-placement": "line",
-    "text-field": "{elevation}",
-    "text-font": ["Noto Sans Regular"],
-    "text-rotation-alignment": "map",
-    "text-size": {
-      "base": 1,
-      "stops": [[13, 20], [14, 20]]
+      "id": "text-piezo_contour_10",
+      "type": "symbol",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-10",
+      "minzoom": 5,
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": "{elevation}",
+        "text-font": ["Noto Sans Regular"],
+        "text-rotation-alignment": "map",
+        "text-size": {
+          "base": 1,
+          "stops": [
+            [13, 20],
+            [14, 20]
+          ]
+        },
+        "visibility": "none",
+        "text-padding": 1,
+        "text-allow-overlap": false,
+        "text-anchor": "top"
+      },
+      "paint": {
+        "text-color": "#0219FF",
+        "text-halo-blur": 0.5,
+        "text-halo-width": 1
+      }
     },
-    "visibility": "none",
-    "text-padding": 1,
-    "text-allow-overlap": false,
-    "text-anchor": "top"
-  },
-  "paint": {
-    "text-color": "#0219FF",
-    "text-halo-blur": 0.5,
-    "text-halo-width": 1
-  }
-},
-    
+
     {
-  "id": "text-piezo_contour_11",
-  "type": "symbol",
-  "source": "pbghis8kc",
-  "source-layer": "piezo_contour-11",
-  "minzoom": 5,
-  "layout": {
-    "symbol-placement": "line",
-    "text-field": "{elevation}",
-    "text-font": ["Noto Sans Regular"],
-    "text-rotation-alignment": "map",
-    "text-size": {
-      "base": 1,
-      "stops": [[13, 20], [14, 20]]
+      "id": "text-piezo_contour_11",
+      "type": "symbol",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-11",
+      "minzoom": 5,
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": "{elevation}",
+        "text-font": ["Noto Sans Regular"],
+        "text-rotation-alignment": "map",
+        "text-size": {
+          "base": 1,
+          "stops": [
+            [13, 20],
+            [14, 20]
+          ]
+        },
+        "visibility": "none",
+        "text-padding": 1,
+        "text-allow-overlap": false,
+        "text-anchor": "top"
+      },
+      "paint": {
+        "text-color": "#0219FF",
+        "text-halo-blur": 0.5,
+        "text-halo-width": 1
+      }
     },
-    "visibility": "none",
-    "text-padding": 1,
-    "text-allow-overlap": false,
-    "text-anchor": "top"
-  },
-  "paint": {
-    "text-color": "#0219FF",
-    "text-halo-blur": 0.5,
-    "text-halo-width": 1
-  }
-},
-    
+
     {
-  "id": "text-piezo_contour_12",
-  "type": "symbol",
-  "source": "pbghis8kc",
-  "source-layer": "piezo_contour-12",
-  "minzoom": 5,
-  "layout": {
-    "symbol-placement": "line",
-    "text-field": "{elevation}",
-    "text-font": ["Noto Sans Regular"],
-    "text-rotation-alignment": "map",
-    "text-size": {
-      "base": 1,
-      "stops": [[13, 20], [14, 20]]
+      "id": "text-piezo_contour_12",
+      "type": "symbol",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-12",
+      "minzoom": 5,
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": "{elevation}",
+        "text-font": ["Noto Sans Regular"],
+        "text-rotation-alignment": "map",
+        "text-size": {
+          "base": 1,
+          "stops": [
+            [13, 20],
+            [14, 20]
+          ]
+        },
+        "visibility": "none",
+        "text-padding": 1,
+        "text-allow-overlap": false,
+        "text-anchor": "top"
+      },
+      "paint": {
+        "text-color": "#0219FF",
+        "text-halo-blur": 0.5,
+        "text-halo-width": 1
+      }
     },
-    "visibility": "none",
-    "text-padding": 1,
-    "text-allow-overlap": false,
-    "text-anchor": "top"
-  },
-  "paint": {
-    "text-color": "#0219FF",
-    "text-halo-blur": 0.5,
-    "text-halo-width": 1
-  }
-},
-    
+
     {
-  "id": "text-piezo_contour_2",
-  "type": "symbol",
-  "source": "pbghis8kc",
-  "source-layer": "piezo_contour-2",
-  "minzoom": 5,
-  "layout": {
-    "symbol-placement": "line",
-    "text-field": "{elevation}",
-    "text-font": ["Noto Sans Regular"],
-    "text-rotation-alignment": "map",
-    "text-size": {
-      "base": 1,
-      "stops": [[13, 20], [14, 20]]
+      "id": "text-piezo_contour_2",
+      "type": "symbol",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-2",
+      "minzoom": 5,
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": "{elevation}",
+        "text-font": ["Noto Sans Regular"],
+        "text-rotation-alignment": "map",
+        "text-size": {
+          "base": 1,
+          "stops": [
+            [13, 20],
+            [14, 20]
+          ]
+        },
+        "visibility": "none",
+        "text-padding": 1,
+        "text-allow-overlap": false,
+        "text-anchor": "top"
+      },
+      "paint": {
+        "text-color": "#0219FF",
+        "text-halo-blur": 0.5,
+        "text-halo-width": 1
+      }
     },
-    "visibility": "none",
-    "text-padding": 1,
-    "text-allow-overlap": false,
-    "text-anchor": "top"
-  },
-  "paint": {
-    "text-color": "#0219FF",
-    "text-halo-blur": 0.5,
-    "text-halo-width": 1
-  }
-},
-    
+
     {
-  "id": "text-piezo_contour_3",
-  "type": "symbol",
-  "source": "pbghis8kc",
-  "source-layer": "piezo_contour-3",
-  "minzoom": 5,
-  "layout": {
-    "symbol-placement": "line",
-    "text-field": "{elevation}",
-    "text-font": ["Noto Sans Regular"],
-    "text-rotation-alignment": "map",
-    "text-size": {
-      "base": 1,
-      "stops": [[13, 20], [14, 20]]
+      "id": "text-piezo_contour_3",
+      "type": "symbol",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-3",
+      "minzoom": 5,
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": "{elevation}",
+        "text-font": ["Noto Sans Regular"],
+        "text-rotation-alignment": "map",
+        "text-size": {
+          "base": 1,
+          "stops": [
+            [13, 20],
+            [14, 20]
+          ]
+        },
+        "visibility": "none",
+        "text-padding": 1,
+        "text-allow-overlap": false,
+        "text-anchor": "top"
+      },
+      "paint": {
+        "text-color": "#0219FF",
+        "text-halo-blur": 0.5,
+        "text-halo-width": 1
+      }
     },
-    "visibility": "none",
-    "text-padding": 1,
-    "text-allow-overlap": false,
-    "text-anchor": "top"
-  },
-  "paint": {
-    "text-color": "#0219FF",
-    "text-halo-blur": 0.5,
-    "text-halo-width": 1
-  }
-},
-    
+
     {
-  "id": "text-piezo_contour_4",
-  "type": "symbol",
-  "source": "pbghis8kc",
-  "source-layer": "piezo_contour-4",
-  "minzoom": 5,
-  "layout": {
-    "symbol-placement": "line",
-    "text-field": "{elevation}",
-    "text-font": ["Noto Sans Regular"],
-    "text-rotation-alignment": "map",
-    "text-size": {
-      "base": 1,
-      "stops": [[13, 20], [14, 20]]
+      "id": "text-piezo_contour_4",
+      "type": "symbol",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-4",
+      "minzoom": 5,
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": "{elevation}",
+        "text-font": ["Noto Sans Regular"],
+        "text-rotation-alignment": "map",
+        "text-size": {
+          "base": 1,
+          "stops": [
+            [13, 20],
+            [14, 20]
+          ]
+        },
+        "visibility": "none",
+        "text-padding": 1,
+        "text-allow-overlap": false,
+        "text-anchor": "top"
+      },
+      "paint": {
+        "text-color": "#0219FF",
+        "text-halo-blur": 0.5,
+        "text-halo-width": 1
+      }
     },
-    "visibility": "none",
-    "text-padding": 1,
-    "text-allow-overlap": false,
-    "text-anchor": "top"
-  },
-  "paint": {
-    "text-color": "#0219FF",
-    "text-halo-blur": 0.5,
-    "text-halo-width": 1
-  }
-},
-    
+
     {
-  "id": "text-piezo_contour_5",
-  "type": "symbol",
-  "source": "pbghis8kc",
-  "source-layer": "piezo_contour-5",
-  "minzoom": 5,
-  "layout": {
-    "symbol-placement": "line",
-    "text-field": "{elevation}",
-    "text-font": ["Noto Sans Regular"],
-    "text-rotation-alignment": "map",
-    "text-size": {
-      "base": 1,
-      "stops": [[13, 20], [14, 20]]
+      "id": "text-piezo_contour_5",
+      "type": "symbol",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-5",
+      "minzoom": 5,
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": "{elevation}",
+        "text-font": ["Noto Sans Regular"],
+        "text-rotation-alignment": "map",
+        "text-size": {
+          "base": 1,
+          "stops": [
+            [13, 20],
+            [14, 20]
+          ]
+        },
+        "visibility": "none",
+        "text-padding": 1,
+        "text-allow-overlap": false,
+        "text-anchor": "top"
+      },
+      "paint": {
+        "text-color": "#0219FF",
+        "text-halo-blur": 0.5,
+        "text-halo-width": 1
+      }
     },
-    "visibility": "none",
-    "text-padding": 1,
-    "text-allow-overlap": false,
-    "text-anchor": "top"
-  },
-  "paint": {
-    "text-color": "#0219FF",
-    "text-halo-blur": 0.5,
-    "text-halo-width": 1
-  }
-},
-    
+
     {
-  "id": "text-piezo_contour_6",
-  "type": "symbol",
-  "source": "pbghis8kc",
-  "source-layer": "piezo_contour-6",
-  "minzoom": 5,
-  "layout": {
-    "symbol-placement": "line",
-    "text-field": "{elevation}",
-    "text-font": ["Noto Sans Regular"],
-    "text-rotation-alignment": "map",
-    "text-size": {
-      "base": 1,
-      "stops": [[13, 20], [14, 20]]
+      "id": "text-piezo_contour_6",
+      "type": "symbol",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-6",
+      "minzoom": 5,
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": "{elevation}",
+        "text-font": ["Noto Sans Regular"],
+        "text-rotation-alignment": "map",
+        "text-size": {
+          "base": 1,
+          "stops": [
+            [13, 20],
+            [14, 20]
+          ]
+        },
+        "visibility": "none",
+        "text-padding": 1,
+        "text-allow-overlap": false,
+        "text-anchor": "top"
+      },
+      "paint": {
+        "text-color": "#0219FF",
+        "text-halo-blur": 0.5,
+        "text-halo-width": 1
+      }
     },
-    "visibility": "none",
-    "text-padding": 1,
-    "text-allow-overlap": false,
-    "text-anchor": "top"
-  },
-  "paint": {
-    "text-color": "#0219FF",
-    "text-halo-blur": 0.5,
-    "text-halo-width": 1
-  }
-},
-    
+
     {
-  "id": "text-piezo_contour_7",
-  "type": "symbol",
-  "source": "pbghis8kc",
-  "source-layer": "piezo_contour-7",
-  "minzoom": 5,
-  "layout": {
-    "symbol-placement": "line",
-    "text-field": "{elevation}",
-    "text-font": ["Noto Sans Regular"],
-    "text-rotation-alignment": "map",
-    "text-size": {
-      "base": 1,
-      "stops": [[13, 20], [14, 20]]
+      "id": "text-piezo_contour_7",
+      "type": "symbol",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-7",
+      "minzoom": 5,
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": "{elevation}",
+        "text-font": ["Noto Sans Regular"],
+        "text-rotation-alignment": "map",
+        "text-size": {
+          "base": 1,
+          "stops": [
+            [13, 20],
+            [14, 20]
+          ]
+        },
+        "visibility": "none",
+        "text-padding": 1,
+        "text-allow-overlap": false,
+        "text-anchor": "top"
+      },
+      "paint": {
+        "text-color": "#0219FF",
+        "text-halo-blur": 0.5,
+        "text-halo-width": 1
+      }
     },
-    "visibility": "none",
-    "text-padding": 1,
-    "text-allow-overlap": false,
-    "text-anchor": "top"
-  },
-  "paint": {
-    "text-color": "#0219FF",
-    "text-halo-blur": 0.5,
-    "text-halo-width": 1
-  }
-},
-    
+
     {
-  "id": "text-piezo_contour_8",
-  "type": "symbol",
-  "source": "pbghis8kc",
-  "source-layer": "piezo_contour-8",
-  "minzoom": 5,
-  "layout": {
-    "symbol-placement": "line",
-    "text-field": "{elevation}",
-    "text-font": ["Noto Sans Regular"],
-    "text-rotation-alignment": "map",
-    "text-size": {
-      "base": 1,
-      "stops": [[13, 20], [14, 20]]
+      "id": "text-piezo_contour_8",
+      "type": "symbol",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-8",
+      "minzoom": 5,
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": "{elevation}",
+        "text-font": ["Noto Sans Regular"],
+        "text-rotation-alignment": "map",
+        "text-size": {
+          "base": 1,
+          "stops": [
+            [13, 20],
+            [14, 20]
+          ]
+        },
+        "visibility": "none",
+        "text-padding": 1,
+        "text-allow-overlap": false,
+        "text-anchor": "top"
+      },
+      "paint": {
+        "text-color": "#0219FF",
+        "text-halo-blur": 0.5,
+        "text-halo-width": 1
+      }
     },
-    "visibility": "none",
-    "text-padding": 1,
-    "text-allow-overlap": false,
-    "text-anchor": "top"
-  },
-  "paint": {
-    "text-color": "#0219FF",
-    "text-halo-blur": 0.5,
-    "text-halo-width": 1
-  }
-},
-    
+
     {
-  "id": "text-piezo_contour_9",
-  "type": "symbol",
-  "source": "pbghis8kc",
-  "source-layer": "piezo_contour-9",
-  "minzoom": 5,
-  "layout": {
-    "symbol-placement": "line",
-    "text-field": "{elevation}",
-    "text-font": ["Noto Sans Regular"],
-    "text-rotation-alignment": "map",
-    "text-size": {
-      "base": 1,
-      "stops": [[13, 20], [14, 20]]
-    },
-    "visibility": "none",
-    "text-padding": 1,
-    "text-allow-overlap": false,
-    "text-anchor": "top"
-  },
-  "paint": {
-    "text-color": "#0219FF",
-    "text-halo-blur": 0.5,
-    "text-halo-width": 1
-  }
-}
-	
-		
+      "id": "text-piezo_contour_9",
+      "type": "symbol",
+      "source": "pbghis8kc",
+      "source-layer": "piezo_contour-9",
+      "minzoom": 5,
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": "{elevation}",
+        "text-font": ["Noto Sans Regular"],
+        "text-rotation-alignment": "map",
+        "text-size": {
+          "base": 1,
+          "stops": [
+            [13, 20],
+            [14, 20]
+          ]
+        },
+        "visibility": "none",
+        "text-padding": 1,
+        "text-allow-overlap": false,
+        "text-anchor": "top"
+      },
+      "paint": {
+        "text-color": "#0219FF",
+        "text-halo-blur": 0.5,
+        "text-halo-width": 1
+      }
+    }
   ],
   "id": "osm-liberty"
 }
