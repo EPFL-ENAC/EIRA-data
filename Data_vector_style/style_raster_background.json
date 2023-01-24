@@ -17,7 +17,7 @@
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": [
-        "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}"
       ],
       "type": "raster"
     }
@@ -41,73 +41,73 @@
 	
 	,
 	
-	 "ponding_2_raster": {
+	 "ponding-raster_2": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_2/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "ponding_3_raster": {
+ "ponding-raster_3": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_3/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "ponding_4_raster": {
+ "ponding-raster_4": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_4/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "ponding_5_raster": {
+ "ponding-raster_5": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_5/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "ponding_6_raster": {
+ "ponding-raster_6": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_6/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "ponding_7_raster": {
+ "ponding-raster_7": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_7/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "ponding_8_raster": {
+ "ponding-raster_8": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_8/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "ponding_9_raster": {
+ "ponding-raster_9": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_9/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "ponding_10_raster": {
+ "ponding-raster_10": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_10/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "ponding_11_raster": {
+ "ponding-raster_11": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_11/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "ponding_12_raster": {
+ "ponding-raster_12": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_12/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "ponding_1_raster": {
+ "ponding-raster_1": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/ponding_1/{z}/{x}/{y}.png"],
@@ -117,73 +117,73 @@
 	,
 	
 	
- "piezo_elev_2_raster": {
+ "piezo-elev-raster_2": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_2/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "piezo_elev_3_raster": {
+ "piezo-elev-raster_3": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_3/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "piezo_elev_4_raster": {
+ "piezo-elev-raster_4": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_4/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "piezo_elev_5_raster": {
+ "piezo-elev-raster_5": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_5/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "piezo_elev_6_raster": {
+ "piezo-elev-raster_6": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_6/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "piezo_elev_7_raster": {
+ "piezo-elev-raster_7": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_7/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "piezo_elev_8_raster": {
+ "piezo-elev-raster_8": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_8/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "piezo_elev_9_raster": {
+ "piezo-elev-raster_9": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_9/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "piezo_elev_10_raster": {
+ "piezo-elev-raster_10": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_10/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "piezo_elev_11_raster": {
+ "piezo-elev-raster_11": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_11/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "piezo_elev_12_raster": {
+ "piezo-elev-raster_12": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_12/{z}/{x}/{y}.png"],
       "type": "raster"
     },
- "piezo_elev_1_raster": {
+ "piezo-elev-raster_1": {
       "maxzoom": 22,
       "tileSize": 256,
       "tiles": ["https://enacit4r-cdn.epfl.ch/EIRA/2023-01-20/raster/piezo_elev_1/{z}/{x}/{y}.png"],
@@ -230,97 +230,97 @@
 	,
 	
 	{
-      "id": "ponding_2",
+      "id": "ponding-raster_2",
       "type": "raster",
-      "source": "ponding_2_raster",
+      "source": "ponding-raster_2",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "ponding_3",
+      "id": "ponding-raster_3",
       "type": "raster",
-      "source": "ponding_3_raster",
+      "source": "ponding-raster_3",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "ponding_4",
+      "id": "ponding-raster_4",
       "type": "raster",
-      "source": "ponding_4_raster",
+      "source": "ponding-raster_4",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "ponding_5",
+      "id": "ponding-raster_5",
       "type": "raster",
-      "source": "ponding_5_raster",
+      "source": "ponding-raster_5",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "ponding_6",
+      "id": "ponding-raster_6",
       "type": "raster",
-      "source": "ponding_6_raster",
+      "source": "ponding-raster_6",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "ponding_7",
+      "id": "ponding-raster_7",
       "type": "raster",
-      "source": "ponding_7_raster",
+      "source": "ponding-raster_7",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "ponding_8",
+      "id": "ponding-raster_8",
       "type": "raster",
-      "source": "ponding_8_raster",
+      "source": "ponding-raster_8",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "ponding_9",
+      "id": "ponding-raster_9",
       "type": "raster",
-      "source": "ponding_9_raster",
+      "source": "ponding-raster_9",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "ponding_10",
+      "id": "ponding-raster_10",
       "type": "raster",
-      "source": "ponding_10_raster",
+      "source": "ponding-raster_10",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "ponding_11",
+      "id": "ponding-raster_11",
       "type": "raster",
-      "source": "ponding_11_raster",
+      "source": "ponding-raster_11",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "ponding_12",
+      "id": "ponding-raster_12",
       "type": "raster",
-      "source": "ponding_12_raster",
+      "source": "ponding-raster_12",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "ponding_1",
+      "id": "ponding-raster_1",
       "type": "raster",
-      "source": "ponding_1_raster",
+      "source": "ponding-raster_1",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
@@ -329,97 +329,97 @@
 	,
 	
 	{
-      "id": "piezo_elev_2",
+      "id": "piezo-elev-raster_2",
       "type": "raster",
-      "source": "piezo_elev_2_raster",
+      "source": "piezo-elev-raster_2",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "piezo_elev_3",
+      "id": "piezo-elev-raster_3",
       "type": "raster",
-      "source": "piezo_elev_3_raster",
+      "source": "piezo-elev-raster_3",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "piezo_elev_4",
+      "id": "piezo-elev-raster_4",
       "type": "raster",
-      "source": "piezo_elev_4_raster",
+      "source": "piezo-elev-raster_4",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "piezo_elev_5",
+      "id": "piezo-elev-raster_5",
       "type": "raster",
-      "source": "piezo_elev_5_raster",
+      "source": "piezo-elev-raster_5",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "piezo_elev_6",
+      "id": "piezo-elev-raster_6",
       "type": "raster",
-      "source": "piezo_elev_6_raster",
+      "source": "piezo-elev-raster_6",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "piezo_elev_7",
+      "id": "piezo-elev-raster_7",
       "type": "raster",
-      "source": "piezo_elev_7_raster",
+      "source": "piezo-elev-raster_7",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "piezo_elev_8",
+      "id": "piezo-elev-raster_8",
       "type": "raster",
-      "source": "piezo_elev_8_raster",
+      "source": "piezo-elev-raster_8",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "piezo_elev_9",
+      "id": "piezo-elev-raster_9",
       "type": "raster",
-      "source": "piezo_elev_9_raster",
+      "source": "piezo-elev-raster_9",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "piezo_elev_10",
+      "id": "piezo-elev-raster_10",
       "type": "raster",
-      "source": "piezo_elev_10_raster",
+      "source": "piezo-elev-raster_10",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "piezo_elev_11",
+      "id": "piezo-elev-raster_11",
       "type": "raster",
-      "source": "piezo_elev_11_raster",
+      "source": "piezo-elev-raster_11",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "piezo_elev_12",
+      "id": "piezo-elev-raster_12",
       "type": "raster",
-      "source": "piezo_elev_12_raster",
+      "source": "piezo-elev-raster_12",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
     },
 {
-      "id": "piezo_elev_1",
+      "id": "piezo-elev-raster_1",
       "type": "raster",
-      "source": "piezo_elev_1_raster",
+      "source": "piezo-elev-raster_1",
       "maxzoom": 22,
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.6]]}},
       "layout": {"visibility": "none"}
