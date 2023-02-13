@@ -15,6 +15,14 @@
       "minZoom": 0,
       "maxZoom": 22
     },
+    "pbghis8kc_2": {
+      "type": "vector",
+      "tiles": [
+        "https://enacit4r-cdn.epfl.ch/EIRA/2023-02-13/test_areas/{z}/{x}/{y}.pbf"
+      ],
+      "minZoom": 0,
+      "maxZoom": 22
+    },
     "natural_earth_shaded_relief": {
       "maxzoom": 22,
       "tileSize": 256,
@@ -696,6 +704,13 @@
       "type": "line",
       "source": "pbghis8kc",
       "source-layer": "data_extent",
+      "layout": { "visibility": "visible" }
+    },
+    {
+      "id": "test_areas",
+      "type": "line",
+      "source": "pbghis8kc_2",
+      "source-layer": "test_areas",
       "layout": { "visibility": "visible" }
     },
     {
