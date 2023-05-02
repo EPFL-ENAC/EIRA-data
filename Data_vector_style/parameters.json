@@ -1,5 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/EPFL-ENAC/it4r-webmap/main/schema/parameters.schema.json",
+  "title": "Research project EIRA",
+  "subtitle": "Enhancing Infrastructure Resilience to Flooding using Afforestation. The Case of Nouakchott city, Mauritania",
   "center": { "lat": 18.0735, "lng": -15.9582 },
   "zoom": 12,
   "permanentLayerIds": ["background", "natural_earth"],
